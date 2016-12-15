@@ -1,0 +1,208 @@
+.purple {
+	background-color: #2e0927;
+}
+
+.blue {
+	background-color: #978594;
+}
+
+.accent {
+	background-color: #04756f;
+}
+
+.highlight {
+	background-color: #ff8c00;
+}
+
+.button {
+	text-decoration: none;
+	display: block;
+	line-height: 3em;
+	text-align: center;
+}
+
+*{
+	border-radius: 10px;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+#wrapper {
+	max-width: 62.5em;
+	margin: auto;
+}
+
+header {
+	background-image: url('https://bauerphysicaltherapy.files.wordpress.com/2011/06/healthy-header-berry-health-benefits.jpg');
+	background-position: center;
+	width: 100%;
+	height: 160px;
+}
+
+#pagetitle{
+	font-size: 70px;
+	color: white;
+    text-align: center;
+    line-height: 2;
+    position: relative;
+}
+
+#top li {
+	display: inline;
+	width: 100%;
+}
+
+#top a, .logout {
+	color: #FFF;
+}
+
+#top a:hover {
+	background-color: #002F2F;
+}
+
+#content-wrapper {
+	float: left;
+	width: 100%;
+}
+
+#left {
+	width: 16%;
+	float: left;
+}
+
+#left ul {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+#left li {
+	display: inline;
+	width: 100%;
+}
+
+#left a {
+	color: #000;
+	font-size: 0.7em;
+}
+
+#left a:hover {
+	background-color: #EFECCA;	
+}
+
+#createButton {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 2em;
+	text-align: center;
+    width: 12em;
+}
+
+#logOut{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1,5em;
+	text-align: center;
+    width: 6em;
+    position: absolute;
+}
+
+.logout {
+	text-align: center;
+	display:block;
+    text-decoration: none;
+	z-index: 50;
+}
+
+#createButton a:hover {
+    background-color: #002F2F;
+}
+main {
+	width: 84%;
+	float: left;
+	padding: 1em;
+	box-sizing: border-box;
+}
+
+figure {
+	text-align: center;
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+article img {
+	width: 100%;
+	max-width: 500px;
+}
+
+footer {
+	padding: 1em 0;
+	text-align: center;
+	float: left;
+	width: 100%;
+	color: #FFF;
+}
+
+table {
+	width: 80%;
+	border-collapse: collapse;
+}
+
+td {
+	border: 1px solid #000;
+	padding: 0.5em;
+}
+
+fieldset {
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    float: left;
+    box-sizing: border-box;
+}
+span{
+    color:red;
+}
+
+
+@media screen and (min-width: 768px){
+	#top ul:first-child {
+		display: none !important;
+	}
+	
+	#top ul {
+		margin: 0;
+		padding: 0;
+		display: flex !important;
+		display: -ms-flex !important;
+		display: -webkit-flex !important;
+		justify-content: space-around;
+		-ms-justify-content: space-around;
+		-webkit-justify-content: space-around;
+	}
+}
+
+@media screen and (max-width: 767px){
+	#top ul {
+		margin: 0;
+		padding: 0;
+		display: none;
+	}
+	
+	#top ul:first-child {
+		display: block;
+	}
+	
+	#left ul {
+		display: none;
+	}
+	
+	main {
+		width: 100%;
+	}
+}

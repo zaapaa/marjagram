@@ -1,0 +1,4 @@
+newRating.php: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+newRating.php: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND MediaID=18' at line 1
+get user info: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+newComment.php: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`marjagram`.`marjagram_comment`, CONSTRAINT `marjagram_comment_ibfk_2` FOREIGN KEY (`MediaID`) REFERENCES `marjagram_media` (`MediaID`))
